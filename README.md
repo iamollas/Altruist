@@ -10,9 +10,9 @@ a person unselfishly concerned for or devoted to the welfare of others (opposed 
 ## Contributors on Altruist
 Name | Email
 --- | ---
-[Ioannis Mollas](https://intelligence.csd.auth.gr/people/ioannis-mollas/)
-[Grigorios Tsoumakas](https://intelligence.csd.auth.gr/people/tsoumakas/)
-[Nick Bassiliades](https://intelligence.csd.auth.gr/people/bassiliades/)
+[Ioannis Mollas](https://intelligence.csd.auth.gr/people/ioannis-mollas/) | iamollas@csd.auth.gr
+[Grigorios Tsoumakas](https://intelligence.csd.auth.gr/people/tsoumakas/) | greg@csd.auth.gr
+[Nick Bassiliades](https://intelligence.csd.auth.gr/people/bassiliades/) | nbassili@csd.auth.gr
 
 ## License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
