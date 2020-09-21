@@ -11,16 +11,16 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install swi-prolog
 
 WORKDIR /usr/src/app
 
-COPY base_a.pl .
-COPY base_b.pl .
+COPY Altruist/base_a.pl .
+COPY Altruist/base_b.pl .
 
-COPY fi_techniques.py .
-COPY altruist.py .
+COPY Altruist/fi_techniques.py .
+COPY Altruist/altruist.py .
 
-COPY QualitativeExperiments.ipynb .
-COPY QuantitativeExperiments.ipynb .
+COPY Altruist/QualitativeExperiments.ipynb .
+COPY Altruist/QuantitativeExperiments.ipynb .
 
-COPY requirements.txt .
+COPY Altruist/requirements.txt .
 
 RUN mkdir prolog_outputs
 
