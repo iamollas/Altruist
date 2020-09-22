@@ -6,6 +6,16 @@ This paper introduces the "Altruist" (Argumentative expLanaTions thRoUgh local I
 ## Altruist / ˈæl tru ɪst /
 a person unselfishly concerned for or devoted to the welfare of others (opposed to egoist).
 
+## Instructions
+Please ensure you have docker installed on your desktop. Then:
+```bash
+docker pull johnmollas/altruist
+```
+After succesfullt install Altruist, please do:
+```bash
+docker run -p 8888:8888 johnmollas/altruist
+```
+Then, in your terminal copy the localhost url and open it in your browser.
 
 ## Contributors on Altruist
 Name | Email
