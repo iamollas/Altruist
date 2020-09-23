@@ -11,7 +11,7 @@ Please ensure you have docker installed on your desktop. Then:
 ```bash
 docker pull johnmollas/altruist
 ```
-After succesfullt install Altruist, please do:
+After succesfully installing Altruist, please do:
 ```bash
 docker run -p 8888:8888 johnmollas/altruist
 ```
