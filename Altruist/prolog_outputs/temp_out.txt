@@ -1,0 +1,9 @@
+F1 is not untruthful
+F1 is untruthful
+F2 is not untruthful
+F2 is untruthful
+F3 is not untruthful
+F3 is untruthful
+F4 is indeed untruthful
+F4 is untruthful
+ERROR: -g consult('prolog_outputs/temp_3.pl'), untrusted('Explanation'): false

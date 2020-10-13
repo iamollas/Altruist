@@ -291,7 +291,7 @@ class Altruist:
         temp_instance_i[feature] = to_be_evaluated[0]
         temp_instance_d = instance.copy()
         temp_instance_d[feature] = to_be_evaluated[1]
-        probabilities = self.model.predict_proba([instance,temp_instance_i,temp_instance_d]) #Check here if it has problem predictinh like before, maybe create _predict
+        probabilities = self.model.predict_proba([instance,temp_instance_i,temp_instance_d]) #Check here if it has problem predictinh like before, maybe create _predict do it to be able to addapt in regression as well
         probabilities = [probabilities[0][0],probabilities[1][0],probabilities[2][0]]
         if (probabilities[0] < 0.5 and probabilities[1] >= 0.5) or (probabilities[0] >= 0.5 and probabilities[1] < 0.5):
             counter_factuals.append([feature,to_be_evaluated[0]])
