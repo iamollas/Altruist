@@ -24,5 +24,10 @@ Name | Email
 [Grigorios Tsoumakas](https://intelligence.csd.auth.gr/people/tsoumakas/) | greg@csd.auth.gr
 [Nick Bassiliades](https://intelligence.csd.auth.gr/people/bassiliades/) | nbassili@csd.auth.gr
 
+## See our Work
+[LionLearn Interpretability Library](https://github.com/intelligence-csd-auth-gr/LionLearn) containing: 
+1. [LioNets](https://github.com/iamollas/LionLearn/tree/master/LioNets): Local Interpretation Of Neural nETworkS through penultimate layer decoding
+2. [LionForests](https://github.com/iamollas/LionLearn/tree/master/LionForests): Local Interpretation Of raNdom FORESts through paTh Selection
+
 ## License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
