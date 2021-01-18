@@ -28,6 +28,12 @@ RUN pip install --upgrade setuptools
 
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN apt install -y libgraphviz-dev
+
+RUN apt install -y python-pydot python-pydot-ng graphviz
+
+RUN pip install pygraphviz==1.5
+
 RUN python3 -m pip install --upgrade notebook
 
 CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
