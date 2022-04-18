@@ -9,25 +9,14 @@ a person unselfishly concerned for or devoted to the welfare of others (opposed 
 ## Instructions
 Please ensure you have docker installed on your desktop. Then:
 ```bash
-docker pull johnmollas/altruist
+cd AltruistFolder
+docker build -t altruist .
 ```
 After succesfully installing Altruist, please do:
 ```bash
-docker run -p 8888:8888 johnmollas/altruist
+docker run -p 8888:8888 altruist
 ```
 Then, in your terminal copy the localhost url and open it in your browser.
-
-## Contributors on Altruist
-Name | Email
---- | ---
-[Ioannis Mollas](https://intelligence.csd.auth.gr/people/ioannis-mollas/) | iamollas@csd.auth.gr
-[Grigorios Tsoumakas](https://intelligence.csd.auth.gr/people/tsoumakas/) | greg@csd.auth.gr
-[Nick Bassiliades](https://intelligence.csd.auth.gr/people/bassiliades/) | nbassili@csd.auth.gr
-
-## See our Work
-[LionLearn Interpretability Library](https://github.com/intelligence-csd-auth-gr/LionLearn) containing: 
-1. [LioNets](https://github.com/iamollas/LionLearn/tree/master/LioNets): Local Interpretation Of Neural nETworkS through penultimate layer decoding
-2. [LionForests](https://github.com/iamollas/LionLearn/tree/master/LionForests): Local Interpretation Of raNdom FORESts through paTh Selection
 
 ## License
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
